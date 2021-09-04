@@ -88,11 +88,11 @@ public class MendHelper {
     }
 
     private static int mendingCost(int repairedDurability) {
-        return (int) Math.ceil(repairedDurability / ConfigHelper.getInstance().getXpToDurabilityRatio());
+        return (int) Math.ceil(repairedDurability / ConfigHelper.getInstance().getDurabilityPerXp());
     }
 
     private static int repairableAmount(int experienceBudget) {
-        return (int) (ConfigHelper.getInstance().getXpToDurabilityRatio() * experienceBudget);
+        return (int) (ConfigHelper.getInstance().getDurabilityPerXp() * experienceBudget);
 
     }
 

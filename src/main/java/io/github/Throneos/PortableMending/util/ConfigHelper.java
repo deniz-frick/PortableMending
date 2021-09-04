@@ -6,10 +6,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class ConfigHelper {
     private static ConfigHelper instance;
 
-    private final float xpToDurabilityRatio;
+    private final float durabilityPerXp;
 
     private ConfigHelper(Configuration config) {
-        xpToDurabilityRatio = (float) config.getDouble("XpToDurabilityRatio");
+        durabilityPerXp = (float) config.getDouble("DurabilityPerXp");
     }
 
     public static void createInstance(JavaPlugin plugin) {
@@ -21,7 +21,7 @@ public class ConfigHelper {
         return instance;
     }
 
-    public float getXpToDurabilityRatio() {
-        return xpToDurabilityRatio;
+    public float getDurabilityPerXp() {
+        return durabilityPerXp;
     }
 }

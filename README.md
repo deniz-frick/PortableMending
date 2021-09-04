@@ -32,8 +32,8 @@ Groupings:
 ## Configuration
 
 ---
-The `XpToDurabilityRatio` can be changed in the config file.
-Per default this value is set to 1 XP point per 2 durability added (same as Vanilla Mending).
+The `DurabilityPerXp` can be changed in the config file.
+Per default this value is set to 2 Durability point per 1 XP added (same as Vanilla Mending).
 
 This can also be a decimal. E.g. 0.5 would mean that 4 XP is used to mend 1 durability.
 

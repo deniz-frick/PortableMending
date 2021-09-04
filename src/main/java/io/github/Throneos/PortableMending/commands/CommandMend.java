@@ -14,7 +14,7 @@ import java.util.List;
 
 public class CommandMend implements CommandExecutor, TabCompleter {
 
-    private final String[] groupings = {"hands", "armor", "equip", "all" };
+    private final String[] groupings = {"hands", "armor", "equip", "all"};
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
@@ -61,6 +61,6 @@ public class CommandMend implements CommandExecutor, TabCompleter {
             complete.removeIf(s -> !s.startsWith(args[0]));
         }
 
-        return  complete;
+        return complete;
     }
 }

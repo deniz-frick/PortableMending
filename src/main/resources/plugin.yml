@@ -1,12 +1,12 @@
 name: PortableMending
-version: 1.0.0
+version: 1.0.1
 author: Throneos
 main: io.github.Throneos.PortableMending.PortableMending
 commands:
   mend:
     description: Mends the item in your hand or a grouping like hands, equip, armor, all
     aliases: [mnd,md]
-    permission: mend
+    permission: portableMend.mend
     usage: /mend [grouping]
 permissions:
   portableMend.mend:
