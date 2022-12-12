@@ -36,7 +36,7 @@ This can also be a decimal. E.g. 0.5 would mean that 4 XP is used to mend 1 dura
 
 ## Compatibility
 
-This Plugin is built with Bukkit 1.13 and will work with any subsequent version (confirmed to work with 1.19.1).
+This Plugin is built with Bukkit 1.13 and will work with any subsequent version (confirmed to work with 1.19.3).
 If you encounter errors, please create an issue on this repo.
 
 ## Permissions
